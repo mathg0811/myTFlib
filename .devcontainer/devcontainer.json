@@ -1,7 +1,8 @@
 {
     "name": "tf-2.8.4-dev",
     "build": {
-      "dockerfile": "Dockerfile"
+      "dockerfile": "Dockerfile",
+      "context": ".."
     },
     "postCreateCommand": "pip install -e .[dev]",
     "customizations": {
