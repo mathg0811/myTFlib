@@ -9,5 +9,5 @@ RUN python3.9 -m pip install --upgrade pip
 
 WORKDIR /workspace
 
-COPY requirements.txt .
+COPY ../requirements.txt /workspace/requirements.txt
 RUN python3.9 -m pip install -r requirements.txt
