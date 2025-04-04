@@ -9,19 +9,42 @@
             "extensions": [
                 "ms-python.python",
                 "ms-toolsai.jupyter",
+                "ms-toolsai.jupyter-renderers",
                 "ms-python.black-formatter",
-                "ms-python.flake8"
+                "ms-python.flake8",
+                "ms-vscode.cpptools",
+                "ms-vscode.cpptools-extension-pack",
+                "ms-vscode.cpptools-themes",
+                "ms-vscode.cmake-tools",
+                "repreng.csv",
+                "ms-vscode.cpptools-themes",
+                "ms-azuretools.vscode-docker",
+                "yzhang.markdown-all-in-one",
+                "shd101wyy.markdown-preview-enhanced",
+                "ms-vscode.powershell",
+                "ms-python.vscode-pylance",
+                "ms-python.debugpy",
+                "tonybaloney.vscode-pets"
             ],
             "settings": {
                 "terminal.integrated.shell.linux": "/bin/bash",
                 "editor.formatOnSave": true,
+                "python.defaultInterpreterPath": "/usr/bin/python3.9",
                 "python.formatting.provider": "black",
                 "python.linting.enabled": true,
                 "python.linting.flake8Enabled": true,
                 "files.associations": {
                     "*.pyx": "python",
                     "*.pxd": "python"
-                }
+                },
+                "vscode-pets.petSize":"medium",
+                "vscode-pets.throwBallWithMouse": true,
+                "python.analysis.autoImportCompletions": true,
+                "python.analysis.autoFormatStrings": true,
+                "python.analysis.completeFunctionParens": true,
+                "cmake.sourceDirectory": "${workspaceFolder}",
+                "python.terminal.activateEnvInCurrentTerminal": true,
+                "python.analysis.typeCheckingMode": "basic"
             }
         }
     }
