@@ -1,8 +1,8 @@
 {
     "name": "tf-2.8.4-dev",
     "build": {
-      "dockerfile": "Dockerfile",
-      "context": ".."
+        "dockerfile": "Dockerfile",
+        "context": ".."
     },
     "postCreateCommand": "pip install -e .[dev]",
     "customizations": {
@@ -19,7 +19,6 @@
                 "ms-vscode.cmake-tools",
                 "repreng.csv",
                 "ms-vscode.cpptools-themes",
-                "ms-azuretools.vscode-docker",
                 "yzhang.markdown-all-in-one",
                 "shd101wyy.markdown-preview-enhanced",
                 "ms-vscode.powershell",
@@ -38,7 +37,7 @@
                     "*.pyx": "python",
                     "*.pxd": "python"
                 },
-                "vscode-pets.petSize":"medium",
+                "vscode-pets.petSize": "medium",
                 "vscode-pets.throwBallWithMouse": true,
                 "python.analysis.autoImportCompletions": true,
                 "python.analysis.autoFormatStrings": true,
