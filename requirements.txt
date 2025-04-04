@@ -1,3 +1,4 @@
+Cython
 tensorflow==2.8.4
 numpy
 pandas
