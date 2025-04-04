@@ -1,0 +1,24 @@
+{
+    "name": "tf-2.8.4-dev",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "postCreateCommand": "pip install -e .[dev]",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "ms-python.black-formatter",
+                "ms-python.flake8"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash",
+                "editor.formatOnSave": true,
+                "python.formatting.provider": "black",
+                "python.linting.enabled": true,
+                "python.linting.flake8Enabled": true
+            }
+        }
+    }
+}
